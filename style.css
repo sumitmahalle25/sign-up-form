@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Norse";
+  src: url("./Norse-bold.otf") format("woff2");
+}
 body {
-    background-color: lightblue;
+  background-image: url("./images/background.jpg");
 }
