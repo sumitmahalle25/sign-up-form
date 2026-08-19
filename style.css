@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "norse";
+  src: url("./Norse-bold.otf") format("woff2");
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -45,6 +50,7 @@ body {
 
 .logo-container span {
   color: white;
+  font-family: "norse", sans-serif;
   font-size: 4rem;
   font-weight: bold;
   margin-left: 10px;
