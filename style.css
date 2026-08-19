@@ -88,3 +88,32 @@ body {
 .form-group input[type="password"]:user-invalid {
   border: 1px solid red;
 }
+
+.form-container button {
+  background-color: #596d48;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  opacity: 0.6;
+}
+
+.login {
+  padding: 20px 40px;
+}
+
+.login a {
+  color: #596d48;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
