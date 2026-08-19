@@ -31,3 +31,60 @@ body {
   font-size: 4rem;
   font-weight: bold;
 }
+.photo-credit {
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 20px;
+}
+
+.intro {
+  padding: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #f9fafb;
+}
+
+.form-container {
+  padding: 20px 40px;
+  background-color: white;
+}
+.form-container h2 {
+  margin-top: 0;
+}
+
+.form-row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-group input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.form-group input:focus {
+  border: 1px solid blue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.2);
+  outline: none;
+}
+
+.form-group input[type="password"]:user-invalid {
+  border: 1px solid red;
+}
