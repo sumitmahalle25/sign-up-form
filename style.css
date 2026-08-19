@@ -4,21 +4,38 @@
 
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  display: flex;
+  min-height: 100vh;
 }
 
 .sidebar {
+  width: 37%;
   min-height: 100vh;
+
   background-image: url("./images/background.jpg");
   background-size: cover;
   background-position: center;
+
+  position: relative;
 }
 
+.content {
+  width: 60%;
+  background-color: #f5f5f5;
+}
 .logo-container {
   background-color: rgba(0, 0, 0, 0.5);
+
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+
+  margin-top: 180px;
+  padding: 15px;
 }
 
 .logo-container img {
@@ -30,32 +47,53 @@ body {
   color: white;
   font-size: 4rem;
   font-weight: bold;
+  margin-left: 10px;
 }
 .photo-credit {
+  position: absolute;
+
+  bottom: 10px;
+  left: 0;
+  right: 0;
+
+  margin: 0;
+
   color: white;
   text-align: center;
   font-size: 0.75rem;
-  margin-top: 20px;
+}
+.content {
+  width: 63%;
+  background-color: #f5f5f5;
 }
 
 .intro {
-  padding: 40px;
+  padding: 60px 50px 40px;
+
   font-size: 1.2rem;
   font-weight: bold;
-  background-color: #f9fafb;
+
+  max-width: 750px;
+}
+
+.intro p {
+  margin-bottom: 20px;
 }
 
 .form-container {
-  padding: 20px 40px;
   background-color: white;
+  padding: 25px 50px 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
 .form-container h2 {
   margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .form-row {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   margin-bottom: 20px;
 }
 
@@ -73,6 +111,7 @@ body {
 }
 
 .form-group input {
+  width: 100%;
   padding: 8px;
   font-size: 1rem;
   border: 1px solid #e5e7eb;
@@ -90,6 +129,7 @@ body {
 }
 
 .form-container button {
+  margin-top: 10px;
   background-color: #596d48;
   color: white;
   border: none;
@@ -101,19 +141,22 @@ body {
 }
 
 .form-container button:hover {
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
-.login {
-  padding: 20px 40px;
+.account-action {
+  padding: 20px 50px;
+}
+.account-action p {
+  margin: 0;
 }
 
-.login a {
+.account-action a {
   color: #596d48;
   font-weight: bold;
   text-decoration: none;
 }
 
-.login a:hover {
+.account-action a:hover {
   text-decoration: underline;
 }
