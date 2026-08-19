@@ -1,9 +1,33 @@
-@font-face {
-  font-family: "Norse";
-  src: url("./Norse-bold.otf") format("woff2");
+* {
+  box-sizing: border-box;
 }
-body {
-  /* background-image: url("./images/background.jpg"); */
 
-  background-color: lightblue;
+body {
+  margin: 0;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo-container img {
+  width: 70px;
+  height: auto;
+}
+
+.logo-container span {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
 }
