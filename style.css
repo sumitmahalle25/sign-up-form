@@ -3,5 +3,7 @@
   src: url("./Norse-bold.otf") format("woff2");
 }
 body {
-  background-image: url("./images/background.jpg");
+  /* background-image: url("./images/background.jpg"); */
+
+  background-color: lightblue;
 }
